@@ -1,0 +1,27 @@
+.row {
+    padding: 45px 20px;
+    margin: 0 auto;
+}
+
+.card-body {
+    height: 200px;
+    max-height: 200px;
+}
+
+.row .property-image {
+    height: 200px;
+}
+
+.card .property-type {
+    color: #b20000;
+}
+
+.card .property-name {
+    color: #4a4a4a;
+    font-size: 26px;
+ }
+.row p {
+    color: #4a4a4a;
+    font-weight: 500;
+}
+
