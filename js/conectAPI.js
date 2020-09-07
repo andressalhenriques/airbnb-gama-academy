@@ -50,11 +50,11 @@ request.onload = function() {
 
       const h1 = document.createElement('h1');
       h1.textContent = apartment.name;
-      h1.className = 'property-name';
+      h1.className = 'property-name...';
       cardBody.appendChild(h1);
 
       const p = document.createElement('p');
-      p.textContent = "Total de R$ " +apartment.price + ".";
+      p.textContent = "Total de R$ " +apartment.price + "/noite";
       p.className = 'property-price';
       cardBody.appendChild(p);
       
